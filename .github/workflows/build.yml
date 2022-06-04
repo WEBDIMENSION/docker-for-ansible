@@ -9,7 +9,7 @@ jobs:
   build_and_push:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: Ansible
+      IMAGE_NAME: ansible
     steps:
       - name: checkout
         uses: actions/checkout@v2
