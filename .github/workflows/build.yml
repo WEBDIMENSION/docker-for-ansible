@@ -31,3 +31,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/${{ secrets.USERNAME }}/${{ env.IMAGE_NAME }}:latest
+            ghcr.io/${{ secrets.USERNAME }}/${{ env.IMAGE_NAME }}:0.0.1
