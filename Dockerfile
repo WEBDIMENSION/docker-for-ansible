@@ -13,6 +13,4 @@ RUN pip install pytest
 RUN apt-get update -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     sshpass \
-    ansible-lint \
-    expect \
     jq
